@@ -8,6 +8,7 @@ function AnonymousObserver(next, error, complete) {
   this._next = next;
   this._error = error;
   this._complete = complete;
+  
   ObserverBase.call(this);
 }
 

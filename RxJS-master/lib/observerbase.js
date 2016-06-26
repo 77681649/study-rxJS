@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * 观察者基类
+ */
 function ObserverBase() {
   this._stopped = false;
 }

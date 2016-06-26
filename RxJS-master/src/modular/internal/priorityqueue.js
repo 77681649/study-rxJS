@@ -11,6 +11,10 @@ IndexedItem.prototype.compareTo = function (other) {
   return c;
 };
 
+/**
+ * 优先级队列
+ * @param {Number} capacity 容量
+ */
 function PriorityQueue (capacity) {
   this.items = new Array(capacity);
   this.length = 0;
